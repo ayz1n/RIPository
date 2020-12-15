@@ -7,9 +7,10 @@ script:
 
 deploy:
 provider: releases
+prerelease: true
 api_key: $GITHUB_TOKEN
 skip_cleanup: true
 on:
 repo: ayz1n/RIPository
-branch: master
+branch: dev
 tags: false
